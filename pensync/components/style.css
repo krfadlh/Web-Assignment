@@ -1,0 +1,122 @@
+#banner {
+	background-image: url('banner.png');
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+	background-position-y: -230px;
+	position: absolute;
+	top: 0;
+}
+.brand-logo {
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 25px;
+	text-shadow: none;
+	transition-property: text-shadow;
+	transition-duration: .5s;
+}
+.brand-logo:hover {
+	text-shadow: 2px 2px 4px #9E9E9E;
+}
+nav {
+	background-color: transparent;
+	box-shadow: none;
+}
+.nav-wrapper {
+	border-radius: 5px;
+	border-bottom: 2px solid white;
+	z-index: 1;
+}
+nav ul a {
+	color: #000;
+	font-weight: bold;
+}
+h3.landing-title, p.landing-p {
+	text-shadow: 2px 2px 3px #545454;
+	text-align: center;
+	font-weight: bold;
+}
+h3.landing-title {
+	color: #e53935; 
+	margin-top: 240px;
+}
+p.landing-p {
+	color: white; 
+	font-size: 120%;
+}
+a.landing-button, button.landing-button {
+	background-color: #e53935 !important;
+	border-radius: 5px;
+}
+a.landing-button-white {
+	background-color: transparent !important;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.card-title {
+	text-align: center;
+}
+.card {
+	margin-top: 8%;
+}
+#whats-inside {
+	background-color: white; 
+	height: 90%; 
+	margin-top: 595px;
+}
+.frame-red {
+	background-color: #e53935;
+	border-radius: 50%;
+	padding: 33px;
+	width: 60%;
+}
+.frame-black {
+	background-color: #000000;
+	border-radius: 50%;
+	padding: 20px;
+	width: 60%;
+}
+.whats-inside-pict {
+	width: 100%;
+	height: 33%;
+}
+footer {
+	height: 30%;
+	background-color: #212121;
+	margin-top: 30px;
+}
+
+/* IKI GAWE FORM */
+.input-field input[type=text]:focus + label {
+	color: #e53935;
+}
+.input-field input[type=password]:focus + label {
+	color: #e53935;
+}
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #e53935;
+	box-shadow: 0 1px 0 0 #e53935;
+}
+.input-field input[type=password]:focus {
+	border-bottom: 1px solid #e53935;
+	box-shadow: 0 1px 0 0 #e53935;
+}
+.input-field .prefix.active {
+	color: #e53935;
+}
+
+/* IKI GAWE DATEPICKER */
+.picker__date-display, .picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+	background-color: #e53935;
+}
+.picker__weekday-display {
+	background-color: #C4302D;
+}
+.picker__day.picker__day--today, .picker__today, .picker__close {
+	color: #e53935;
+}
+.dropdown-content li > span {
+	color: #e53935;
+}
